@@ -58,8 +58,45 @@ header{
     border: none;
     margin-bottom: 32px;
 }
-.hero-img{
-   max-width: 635px;
+.hero-img img{
+    width: 100%;
+    height: auto; 
 }
 
 /* card section code */
+.card-title{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-text{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.card-images img{
+    width: 100%;
+    height: auto;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
