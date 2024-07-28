@@ -277,3 +277,25 @@ footer{
     line-height: 19px;
     letter-spacing: 0%;
 }
+/* Responsiv mobil section code */
+@media screen and (max-width: 576px){
+   .section-container{
+    padding: 20px 40px;
+   } 
+   header{
+    padding: 20px 40px;
+   }
+   .hero-img img{
+    width: 100%;
+    height: auto;
+   }
+   .hero-containe,
+   .card-container,
+   .group-container,
+   .about-container{
+    flex-direction: column;
+   }
+   .container{
+    grid-template-columns: repeat(1, 1fr);
+   }
+}
