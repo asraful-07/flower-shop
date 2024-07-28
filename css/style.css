@@ -204,3 +204,39 @@ header{
     width: 100%;
     height: auto;
 }
+
+/* input section code */
+.input-container{
+    /* background-image: url(); */
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 60px;
+}
+.input-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-title{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.input-text{ 
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px;
+}
+input{
+    border-radius: 8px;
+    padding: 20px 100px;
+    border: 1px solid #fff;
+    margin-right: 16px;
+}
