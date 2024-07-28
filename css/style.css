@@ -39,9 +39,9 @@ header{
 .hero-text{
     color: rgba(39, 39, 39, 0.6);
     font-family: Lato;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 30px;
     letter-spacing: 0%;
     margin: 32px 0;
 }
@@ -139,4 +139,68 @@ header{
     color: rgba(39, 39, 39, 0.8);
     font-size: 14px;
     font-weight: 600;
+}
+
+/* about us section code */
+#section-bg{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 50px 0;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+}
+.about-title{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+.about-text{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin: 24px 0;
+}
+#span{
+    color: rgb(229, 84, 115);
+
+}
+.about-img img{
+    width: 318px;
+}
+
+/* instagram section code */
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.title{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.text{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.img-card img{
+    width: 100%;
+    height: auto;
 }
