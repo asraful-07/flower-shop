@@ -10,7 +10,7 @@ body{
 .section-container{
     max-width: 1920px;
     margin: 0 auto;
-    padding: 60px 240px;
+    padding: 60px 140px;
 }
 
 /* hero section code */
@@ -19,8 +19,8 @@ header{
     margin: 0 auto;
     /* padding: 0 240px; */
     padding-top: 50px;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
     background: rgba(229, 84, 115, 0.1);
 }
 .hero-container{
@@ -47,7 +47,6 @@ header{
 }
 .btn{
     color: rgb(255, 255, 255);
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -94,9 +93,50 @@ header{
     align-items: center;
     gap: 40px;
 }
-.card-images img{
-    width: 100%;
-    height: auto;
+.card-bg{
+    max-width: 464px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+
+}
+.card-bg-x{
+    max-width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+.card-bg-y{
+    max-width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+.card-container img{
+    width: 100%;
+    height: auto;
+}
+
+/* group section code */
+.container-bg{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 60px;
+}
+.group-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+.group-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.group-title{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 14px;
+    font-weight: 600;
 }
